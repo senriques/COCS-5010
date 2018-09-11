@@ -5,6 +5,8 @@ package main
 
 import "fmt"
 
+// print hello world and hello world (in chinese runes)
 func main() {
-	fmt.Println("hello, world ??\n")
+//	fmt.Printf("hello, world\n")
+	fmt.Printf("hello, 世界\n")
 }
