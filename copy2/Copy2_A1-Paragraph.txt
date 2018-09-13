@@ -1,0 +1,11 @@
+// Shawn Enriques
+// senriqu1@uwyo.edu
+// Assignment 1.8 Written Paragraph "Disadvantages of ioutil.ReadFile"
+
+Some of the disadvangtage to reading and writing in data from a file using ReadFile instead of 
+io.copy is that ReadFile will read the entire contents of the file as a binary slice and then 
+the dataneeds to be 'decoded' and parsed into the individual data structures then rewritten 
+into the new file.  Whereas in  io.copy the file is simply opened and copied into another file.  
+I am not sure how io.copy implements, but assume that ReadFile is much more memory intensive as 
+ReadFile loads all the data into memory where io.copy probably reads and writes bits into and 
+out of the file without loading the entire file into memory.

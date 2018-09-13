@@ -1,0 +1,15 @@
+// Shawn Enriques
+// senriqu1@uwyo.edu
+// Assignment 1.6 Test a simple library package
+
+package test1
+
+// DoubleValue returns twice the value passed.
+func DoubleValue (n int) int	{		//note the cap...
+  return n * 2
+  }
+
+ // TripleValue returns three times the value passed.
+ func TripleValue (n int) int  {			//note the cap...
+  return n * 3
+  }
